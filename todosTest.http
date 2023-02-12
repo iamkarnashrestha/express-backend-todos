@@ -1,0 +1,29 @@
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjNkYmIwOTMxYWQyMmEwZTNiNzcyYzA0IiwiZnVsbG5hbWUiOiJLYXJuYSBTaHJlc3RoYSIsImVtYWlsIjoiS2FybmFAbWl1LmVkdSIsImlhdCI6MTY3NTM0NDQ4M30.iLBmzYPWLq_tJpotZqj0Hhn3K4sNvImV4_hInCcJbAs
+    
+    {"title":"Play with theo 2",
+    "description":"Greatest time of the day",
+    "completed":false}
+
+###
+GET http://localhost:3000/api/todos
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjNkYmIwOTMxYWQyMmEwZTNiNzcyYzA0IiwiZnVsbG5hbWUiOiJLYXJuYSBTaHJlc3RoYSIsImVtYWlsIjoiS2FybmFAbWl1LmVkdSIsImlhdCI6MTY3NTM0NDQ4M30.iLBmzYPWLq_tJpotZqj0Hhn3K4sNvImV4_hInCcJbAs
+   
+
+###
+GET http://localhost:3000/api/todos/63dbbadcd6d17958d5367370
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjNkYmIwOTMxYWQyMmEwZTNiNzcyYzA0IiwiZnVsbG5hbWUiOiJLYXJuYSBTaHJlc3RoYSIsImVtYWlsIjoiS2FybmFAbWl1LmVkdSIsImlhdCI6MTY3NTM0NDQ4M30.iLBmzYPWLq_tJpotZqj0Hhn3K4sNvImV4_hInCcJbAs
+
+###
+PUT http://localhost:3000/api/todos/63dbbadcd6d17958d5367370
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjNkYmIwOTMxYWQyMmEwZTNiNzcyYzA0IiwiZnVsbG5hbWUiOiJLYXJuYSBTaHJlc3RoYSIsImVtYWlsIjoiS2FybmFAbWl1LmVkdSIsImlhdCI6MTY3NTM0NDQ4M30.iLBmzYPWLq_tJpotZqj0Hhn3K4sNvImV4_hInCcJbAs
+    
+{"title":"Play with theo agan",
+    "description":"Greatest time of the day",
+    "completed":false}
+
+###
+DELETE http://localhost:3000/api/todos/63dbbadcd6d17958d5367370
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjNkYmIwOTMxYWQyMmEwZTNiNzcyYzA0IiwiZnVsbG5hbWUiOiJLYXJuYSBTaHJlc3RoYSIsImVtYWlsIjoiS2FybmFAbWl1LmVkdSIsImlhdCI6MTY3NTM0NDQ4M30.iLBmzYPWLq_tJpotZqj0Hhn3K4sNvImV4_hInCcJbAs
